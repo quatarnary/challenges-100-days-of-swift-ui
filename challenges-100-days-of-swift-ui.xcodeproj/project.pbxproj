@@ -44,6 +44,7 @@
 		684887112B6A507E008B66B1 /* challenges-100-days-of-swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenges-100-days-of-swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684887152B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITests.swift; sourceTree = "<group>"; };
 		684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		684887242B6A50E1008B66B1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		684886EE2B6A507C008B66B1 = {
 			isa = PBXGroup;
 			children = (
+				684887242B6A50E1008B66B1 /* .gitignore */,
 				684886F92B6A507C008B66B1 /* challenges-100-days-of-swift-ui */,
 				6848870A2B6A507E008B66B1 /* challenges-100-days-of-swift-uiTests */,
 				684887142B6A507E008B66B1 /* challenges-100-days-of-swift-uiUITests */,
