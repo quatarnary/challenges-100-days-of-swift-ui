@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		684886FB2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */; };
-		684886FD2B6A507C008B66B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886FC2B6A507C008B66B1 /* ContentView.swift */; };
+		684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886FC2B6A507C008B66B1 /* TemperatureConverter.swift */; };
 		684886FF2B6A507E008B66B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684886FE2B6A507E008B66B1 /* Assets.xcassets */; };
 		684887022B6A507E008B66B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684887012B6A507E008B66B1 /* Preview Assets.xcassets */; };
 		6848870C2B6A507E008B66B1 /* challenges_100_days_of_swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6848870B2B6A507E008B66B1 /* challenges_100_days_of_swift_uiTests.swift */; };
 		684887162B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887152B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift */; };
 		684887182B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */; };
+		684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		684886F72B6A507C008B66B1 /* challenges-100-days-of-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenges-100-days-of-swift-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiApp.swift; sourceTree = "<group>"; };
-		684886FC2B6A507C008B66B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		684886FC2B6A507C008B66B1 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		684886FE2B6A507E008B66B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		684887012B6A507E008B66B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		684887072B6A507E008B66B1 /* challenges-100-days-of-swift-uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenges-100-days-of-swift-uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +46,7 @@
 		684887152B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITests.swift; sourceTree = "<group>"; };
 		684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		684887242B6A50E1008B66B1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */,
-				684886FC2B6A507C008B66B1 /* ContentView.swift */,
+				684887252B6A521C008B66B1 /* Checkpoint-1 */,
 				684886FE2B6A507E008B66B1 /* Assets.xcassets */,
 				684887002B6A507E008B66B1 /* Preview Content */,
 			);
@@ -127,6 +129,15 @@
 				684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */,
 			);
 			path = "challenges-100-days-of-swift-uiUITests";
+			sourceTree = "<group>";
+		};
+		684887252B6A521C008B66B1 /* Checkpoint-1 */ = {
+			isa = PBXGroup;
+			children = (
+				684886FC2B6A507C008B66B1 /* TemperatureConverter.swift */,
+				684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */,
+			);
+			path = "Checkpoint-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684886FD2B6A507C008B66B1 /* ContentView.swift in Sources */,
+				684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */,
+				684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */,
 				684886FB2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
