@@ -15,6 +15,8 @@
 		684887162B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887152B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift */; };
 		684887182B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */; };
 		684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */; };
+		68D5837F2B6A5F5000726232 /* UniqueItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D5837E2B6A5F5000726232 /* UniqueItems.swift */; };
+		68D583812B6A5F6100726232 /* UniqueItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D583802B6A5F6100726232 /* UniqueItemsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		684887242B6A50E1008B66B1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterModel.swift; sourceTree = "<group>"; };
+		68D5837E2B6A5F5000726232 /* UniqueItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueItems.swift; sourceTree = "<group>"; };
+		68D583802B6A5F6100726232 /* UniqueItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueItemsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6824B2732B6A5E9700FF491F /* Checkpoint-2 */ = {
+			isa = PBXGroup;
+			children = (
+				68D5837E2B6A5F5000726232 /* UniqueItems.swift */,
+				68D583802B6A5F6100726232 /* UniqueItemsModel.swift */,
+			);
+			path = "Checkpoint-2";
+			sourceTree = "<group>";
+		};
 		684886EE2B6A507C008B66B1 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 			children = (
 				684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */,
 				684887252B6A521C008B66B1 /* Checkpoint-1 */,
+				6824B2732B6A5E9700FF491F /* Checkpoint-2 */,
 				684886FE2B6A507E008B66B1 /* Assets.xcassets */,
 				684887002B6A507E008B66B1 /* Preview Content */,
 			);
@@ -271,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */,
+				68D5837F2B6A5F5000726232 /* UniqueItems.swift in Sources */,
 				684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */,
 				684886FB2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift in Sources */,
+				68D583812B6A5F6100726232 /* UniqueItemsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
