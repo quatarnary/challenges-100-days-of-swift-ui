@@ -9,7 +9,21 @@ import SwiftUI
 
 struct DefaultUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Form {
+                Section("") {
+                    Text("")
+                }
+                Section("") {
+                    Text("")
+                }
+                Section("") {
+                    Text("")
+                }
+            }
+            .navigationTitle("Checkpoint Name")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
