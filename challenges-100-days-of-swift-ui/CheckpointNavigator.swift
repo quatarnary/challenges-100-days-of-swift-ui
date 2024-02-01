@@ -9,7 +9,13 @@ import SwiftUI
 
 struct CheckpointNavigator: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationSplitView {
+            NavigationLink("Temperature Converter", destination: TemperatureConverter())
+            NavigationLink("Unique Items", destination: UniqueItems())
+            NavigationLink("Fizz Buzz", destination: FizzBuzz())
+        } detail: {
+            Text("Checkpoint Navigator")
+        }
     }
 }
 

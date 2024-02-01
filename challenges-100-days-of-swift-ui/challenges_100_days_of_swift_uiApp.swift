@@ -11,7 +11,7 @@ import SwiftUI
 struct challenges_100_days_of_swift_uiApp: App {
     var body: some Scene {
         WindowGroup {
-            TemperatureConverter()
+            CheckpointNavigator()
         }
     }
 }
