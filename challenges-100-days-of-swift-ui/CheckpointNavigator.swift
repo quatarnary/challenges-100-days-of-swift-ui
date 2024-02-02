@@ -11,8 +11,13 @@ struct CheckpointNavigator: View {
     var body: some View {
         NavigationSplitView {
             NavigationLink("Temperature Converter", destination: TemperatureConverter())
+                .padding()
             NavigationLink("Unique Items", destination: UniqueItems())
+                .padding()
             NavigationLink("Fizz Buzz", destination: FizzBuzz())
+                .padding()
+            NavigationLink("Square Root", destination: SquareRoot())
+                .padding()
         } detail: {
             Text("Checkpoint Navigator")
         }
