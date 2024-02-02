@@ -18,6 +18,8 @@ struct CheckpointNavigator: View {
                 .padding()
             NavigationLink("Square Root", destination: SquareRoot())
                 .padding()
+            NavigationLink("Closure Filter Sort Map", destination: ClosureFilterSortMap())
+                .padding()
         } detail: {
             Text("Checkpoint Navigator")
         }
