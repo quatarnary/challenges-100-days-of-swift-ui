@@ -23,6 +23,10 @@
 		684887162B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887152B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITests.swift */; };
 		684887182B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */; };
 		684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */; };
+		6856FBD12B7512AF00492562 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856FBD02B7512AF00492562 /* Animals.swift */; };
+		6856FBD32B7512BD00492562 /* AnimalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856FBD22B7512BD00492562 /* AnimalsModel.swift */; };
+		6856FBD52B7515F100492562 /* DogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856FBD42B7515F100492562 /* DogsModel.swift */; };
+		6856FBD72B75161000492562 /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856FBD62B75161000492562 /* CatsModel.swift */; };
 		68D5837F2B6A5F5000726232 /* UniqueItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D5837E2B6A5F5000726232 /* UniqueItems.swift */; };
 		68D583812B6A5F6100726232 /* UniqueItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D583802B6A5F6100726232 /* UniqueItemsModel.swift */; };
 		68D583842B6A65FB00726232 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D583832B6A65FB00726232 /* FizzBuzz.swift */; };
@@ -68,6 +72,10 @@
 		684887172B6A507E008B66B1 /* challenges_100_days_of_swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		684887242B6A50E1008B66B1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterModel.swift; sourceTree = "<group>"; };
+		6856FBD02B7512AF00492562 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		6856FBD22B7512BD00492562 /* AnimalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsModel.swift; sourceTree = "<group>"; };
+		6856FBD42B7515F100492562 /* DogsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsModel.swift; sourceTree = "<group>"; };
+		6856FBD62B75161000492562 /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
 		68D5837E2B6A5F5000726232 /* UniqueItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueItems.swift; sourceTree = "<group>"; };
 		68D583802B6A5F6100726232 /* UniqueItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueItemsModel.swift; sourceTree = "<group>"; };
 		68D583832B6A65FB00726232 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
@@ -169,6 +177,7 @@
 				6841E9FB2B6BBD9C00E2E45F /* Checkpoint-4 */,
 				6841EA022B6D4BE200E2E45F /* Checkpoint-5 */,
 				6841EA072B7275E300E2E45F /* Checkpoint-6 */,
+				6856FBCF2B75120300492562 /* Checkpoint-7 */,
 				684887002B6A507E008B66B1 /* Preview Content */,
 				68D583872B6BB4B400726232 /* DefaultUIView.swift */,
 				684886FE2B6A507E008B66B1 /* Assets.xcassets */,
@@ -208,6 +217,17 @@
 				684887262B6A5301008B66B1 /* TemperatureConverterModel.swift */,
 			);
 			path = "Checkpoint-1";
+			sourceTree = "<group>";
+		};
+		6856FBCF2B75120300492562 /* Checkpoint-7 */ = {
+			isa = PBXGroup;
+			children = (
+				6856FBD02B7512AF00492562 /* Animals.swift */,
+				6856FBD22B7512BD00492562 /* AnimalsModel.swift */,
+				6856FBD42B7515F100492562 /* DogsModel.swift */,
+				6856FBD62B75161000492562 /* CatsModel.swift */,
+			);
+			path = "Checkpoint-7";
 			sourceTree = "<group>";
 		};
 		68D583822B6A65D000726232 /* Checkpoint-3 */ = {
@@ -356,14 +376,18 @@
 				684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */,
 				68D5837F2B6A5F5000726232 /* UniqueItems.swift in Sources */,
 				684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */,
+				6856FBD32B7512BD00492562 /* AnimalsModel.swift in Sources */,
 				68D583862B6A662F00726232 /* FizzBuzzModel.swift in Sources */,
 				6841EA062B6D4C4700E2E45F /* ClosureFilterSortMapModel.swift in Sources */,
 				68D583882B6BB4B400726232 /* DefaultUIView.swift in Sources */,
+				6856FBD12B7512AF00492562 /* Animals.swift in Sources */,
 				684886FB2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift in Sources */,
 				68D583812B6A5F6100726232 /* UniqueItemsModel.swift in Sources */,
 				6841E9FF2B6BBE3300E2E45F /* SquareRootModel.swift in Sources */,
+				6856FBD52B7515F100492562 /* DogsModel.swift in Sources */,
 				6841EA042B6D4C3A00E2E45F /* ClosureFilterSortMap.swift in Sources */,
 				68D583842B6A65FB00726232 /* FizzBuzz.swift in Sources */,
+				6856FBD72B75161000492562 /* CatsModel.swift in Sources */,
 				6841EA012B6D0EC600E2E45F /* SquareRootErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
