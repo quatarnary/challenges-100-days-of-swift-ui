@@ -13,6 +13,8 @@
 		6841EA012B6D0EC600E2E45F /* SquareRootErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841EA002B6D0EC600E2E45F /* SquareRootErrors.swift */; };
 		6841EA042B6D4C3A00E2E45F /* ClosureFilterSortMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841EA032B6D4C3A00E2E45F /* ClosureFilterSortMap.swift */; };
 		6841EA062B6D4C4700E2E45F /* ClosureFilterSortMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841EA052B6D4C4700E2E45F /* ClosureFilterSortMapModel.swift */; };
+		6841EA092B72764000E2E45F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841EA082B72764000E2E45F /* Car.swift */; };
+		6841EA0B2B72765300E2E45F /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841EA0A2B72765300E2E45F /* CarModel.swift */; };
 		684886FB2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */; };
 		684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886FC2B6A507C008B66B1 /* TemperatureConverter.swift */; };
 		684886FF2B6A507E008B66B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684886FE2B6A507E008B66B1 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 		6841EA002B6D0EC600E2E45F /* SquareRootErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRootErrors.swift; sourceTree = "<group>"; };
 		6841EA032B6D4C3A00E2E45F /* ClosureFilterSortMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureFilterSortMap.swift; sourceTree = "<group>"; };
 		6841EA052B6D4C4700E2E45F /* ClosureFilterSortMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureFilterSortMapModel.swift; sourceTree = "<group>"; };
+		6841EA082B72764000E2E45F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		6841EA0A2B72765300E2E45F /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		684886F72B6A507C008B66B1 /* challenges-100-days-of-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenges-100-days-of-swift-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684886FA2B6A507C008B66B1 /* challenges_100_days_of_swift_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges_100_days_of_swift_uiApp.swift; sourceTree = "<group>"; };
 		684886FC2B6A507C008B66B1 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
@@ -124,6 +128,15 @@
 			path = "Checkpoint-5";
 			sourceTree = "<group>";
 		};
+		6841EA072B7275E300E2E45F /* Checkpoint-6 */ = {
+			isa = PBXGroup;
+			children = (
+				6841EA082B72764000E2E45F /* Car.swift */,
+				6841EA0A2B72765300E2E45F /* CarModel.swift */,
+			);
+			path = "Checkpoint-6";
+			sourceTree = "<group>";
+		};
 		684886EE2B6A507C008B66B1 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +168,7 @@
 				68D583822B6A65D000726232 /* Checkpoint-3 */,
 				6841E9FB2B6BBD9C00E2E45F /* Checkpoint-4 */,
 				6841EA022B6D4BE200E2E45F /* Checkpoint-5 */,
+				6841EA072B7275E300E2E45F /* Checkpoint-6 */,
 				684887002B6A507E008B66B1 /* Preview Content */,
 				68D583872B6BB4B400726232 /* DefaultUIView.swift */,
 				684886FE2B6A507E008B66B1 /* Assets.xcassets */,
@@ -335,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6841EA0B2B72765300E2E45F /* CarModel.swift in Sources */,
 				6841E9FD2B6BBE2700E2E45F /* SquareRoot.swift in Sources */,
 				6841E9FA2B6BBB1A00E2E45F /* CheckpointNavigator.swift in Sources */,
+				6841EA092B72764000E2E45F /* Car.swift in Sources */,
 				684887272B6A5301008B66B1 /* TemperatureConverterModel.swift in Sources */,
 				68D5837F2B6A5F5000726232 /* UniqueItems.swift in Sources */,
 				684886FD2B6A507C008B66B1 /* TemperatureConverter.swift in Sources */,
