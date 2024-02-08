@@ -22,6 +22,12 @@ struct CheckpointNavigator: View {
                 .padding()
             NavigationLink("Car Struct", destination: Car())
                 .padding()
+            NavigationLink("Animals", destination: Animals())
+                .padding()
+            NavigationLink("Building", destination: Building())
+                .padding()
+            NavigationLink("RandomItemFromArray", destination: RandomItemFromArray())
+                .padding()
         } detail: {
             Text("Checkpoint Navigator")
         }
